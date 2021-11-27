@@ -1,7 +1,7 @@
 import os
 import sys
 import re
-
+#kommentar
 batchFile = open(os.path.join(sys.path[0], 'input4.txt'), "r")
 lines = batchFile.read().split('\n\n')
 
