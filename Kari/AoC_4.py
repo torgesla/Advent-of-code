@@ -1,9 +1,9 @@
 import os
 import sys
 import re
-
-batchFile = open(os.path.join(sys.path[0], 'input4.txt'), "r")
-lines = batchFile.read().split('\n\n')
+#kommentar
+with open(os.path.join(sys.path[0], 'input4.txt'), "r") as batchFile:
+    lines = batchFile.read().split('\n\n')
 
 passports = []
 fields = []
